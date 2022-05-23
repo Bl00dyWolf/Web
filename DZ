@@ -1,0 +1,26 @@
+<!doctype html>
+<title>Code Basics: основы программирования</title>
+<meta name="description" content="Бесплатные практические уроки по программированию для тех, кто начинает с нуля.">
+<meta property="og:image" content="/images-header.png">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Practice task</title>
+</head>
+<body>
+<h2>Усім привіт!</h2>
+<h1 align="center">Мене звати Вівсяний Владислав</h1>
+    <p align="right"><b>Я студент групи ТЗ-02</b></p>
+<hr>
+<p>За <a href="https://www.w3schools.com/">цим посиланням</a> ви можете знайти цікаву інформацію про <b>мову розмітки HTML5</b> та <b>мову стилів CSS3.</b></p>
+<p>А цю картинку я побачив на просторах інтернету і хочу нею з вами поділитися</p>
+<a href="https://www.pexels.com/ru-ru/photo/2559941/">
+    <img src="https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="mountain">
+</a>
+<p>Вона <b>клікабельна</b> і якщо <b>по ній <i>клацнути</i></b>, то можна перейти на сайт звідки її було взято</p>
+<hr>
+</body>
+</html>
+<code>
+    const a = 5;
+</code>
