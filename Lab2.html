@@ -1,4 +1,10 @@
-<head><style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Form
+    </title>
+    <style>
     table, th, td {
     border: 2px solid rgb(0, 0, 0);
     border-collapse: collapse;
@@ -6,22 +12,28 @@
     </style></head>
    <form> <table width="25%">
 <tr>
-<header><th colspan="2"><center>Pizza Shop 2.0 </center></th></header>
+<th colspan="2"><center>Pizza Shop 2.0 </center></th>
 </tr>
    <tr>
-       <td><label>Name </td><td> <input type="text" required minlength="2" maxlength="15" placeholder="Your Name"></td></label>
+      <td>Name </td><td> <input type="text" required minlength="2" maxlength="15" placeholder="Your Name"></td>
     
  </tr>
  <tr><td>  <label><span>Pizza Topping</span></label></td>
 <td>
-    <label> <input type="radio" name="topping" value="Supreme" required> Supreme
-    <aside><input type="radio" name="topping" value="Vegetarian"> Vegetarian
-        <aside><input type="radio" name="topping" value="Hawaiian"> Hawaiian
-     </label>  </td> </tr>
+     <input type="radio" name="topping" value="Supreme" required> Supreme
+    <aside><input type="radio" name="topping" value="Vegetarian"> Vegetarian</aside>
+        <aside><input type="radio" name="topping" value="Hawaiian"> Hawaiian</aside>
+          </td> </tr>
   <tr><td>
     <label><span>Pizza Sauce</span></label>
   </td>
-<td><label for="Sauce"></label><select name="Sauce" required><option>Tomato</option><option value="mustard">mustard</option><option value="Chili">Chili</option></select></td>
+<td>
+    <select name="Sauce">
+<option value="Tomato" selected>Tomato</option>
+<option value="mustard">mustard</option>
+<option value="Chili">Chili</option>
+</select>
+</td>
 </tr>
 <tr>
     <td>
@@ -40,4 +52,4 @@
 </tr>
 <tr>
 <td colspan="2"><button type="submit">Send my order</button></td> </tr>
-</table></form>
+</table></form></html>
