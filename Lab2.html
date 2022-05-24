@@ -1,1 +1,43 @@
-
+<head><style>
+    table, th, td {
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    }
+    </style></head>
+   <form> <table width="25%">
+<tr>
+<header><th colspan="2"><center>Pizza Shop 2.0 </center></th></header>
+</tr>
+   <tr>
+       <td><label>Name </td><td> <input type="text" required minlength="2" maxlength="15" placeholder="Your Name"></td></label>
+    
+ </tr>
+ <tr><td>  <label><span>Pizza Topping</span></label></td>
+<td>
+    <label> <input type="radio" name="topping" value="Supreme" required> Supreme
+    <aside><input type="radio" name="topping" value="Vegetarian"> Vegetarian
+        <aside><input type="radio" name="topping" value="Hawaiian"> Hawaiian
+     </label>  </td> </tr>
+  <tr><td>
+    <label><span>Pizza Sauce</span></label>
+  </td>
+<td><label for="Sauce"></label><select name="Sauce" required><option>Tomato</option><option value="mustard">mustard</option><option value="Chili">Chili</option></select></td>
+</tr>
+<tr>
+    <td>
+        <label>Optional Extras</label> 
+    </td>
+    <td>
+        <input type="checkbox" name="Extras" id="r1" value="Extra Cheese"><label for="r1">Extra Cheese</label>
+        <input type="checkbox" name="Extras" id="r2" value="Gluten Free Base"><label for="r2">Gluten Free Base</label>
+    </td>
+</tr>
+<tr>
+    <td colspan="2">
+      <label>  Delivery Instruction:</label>
+      <aside><textarea cols="40" name="Delivery" maxlength="200" rows="5" required minlength="10"></textarea></aside>
+    </td>
+</tr>
+<tr>
+<td colspan="2"><button type="submit">Send my order</button></td> </tr>
+</table></form>
