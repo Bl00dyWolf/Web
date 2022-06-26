@@ -1,0 +1,172 @@
+﻿html{
+    background-color: rgb(229,229,235);
+    text-decoration: none;
+}
+.right {
+    border-radius: 0px 30px 30px 0px;
+   /* width: 55%;*/
+    height: 800px;
+   /* float: left;*/
+    background-color: white;
+    font-family:    Georgia, 'Times New Roman', Times, serif;
+}
+.top {
+    color:#808080;
+    padding-top:25px;
+    padding-left:150px;
+    align-items: flex-end;
+    display:grid;
+    margin: 0px 0 0 0px;
+    grid-template-areas:
+        "about resume portfolio blog contact"
+        
+        
+}
+.name{
+    text-align:   center;
+}
+.t{
+    color: #6e7b8a;
+}
+.text{  
+    margin-left: 28%;
+    color: #6e7b8a;
+}
+.about{
+    color:#ffffff;
+    background-color:#304cfd;
+    width:85px;
+    text-align:center;
+    border-radius:10px;
+}
+.pad {
+    padding: 10px 5px;
+}
+
+.line {
+    margin-top: 10px;
+    display: flex;
+    width: 110px;
+    height: 3px;
+}
+
+.short {
+   
+    width: 10px;
+    border: 3px solid #f99058;
+    margin-left: 53px;
+    border-radius: 1.5px;
+    background-color: #f99058;
+}
+
+.long {
+    width: 35px;
+    border: 3px solid #2948fd;
+    border-radius: 1.5px;
+    background-color: #2948fd;
+}
+
+h3 {
+    
+    color: darkslategrey;
+    font-family: Cambria, Cochin, Georgia, Times,  New Roman, serif;
+    text-align: center;
+}
+H1 {
+
+    color: darkslategrey;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.left p {
+    margin: auto;
+    align-items: center;
+    border: 3px solid #e6eaee;
+    width: 135px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #e6eaee
+}
+.photo {
+    margin-top: 20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+.hobbies {
+    display: flex;
+    flex-direction: row;
+}
+.hobbies_1 {
+    border-radius: 50px;
+    border: 3px solid;
+    border-color: #F5F8F9;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    margin-left: 40px;
+    color: #707e8c;
+}
+
+
+
+
+
+.left {
+    background-color: #F5F8F9;
+    width: 25%;
+    height: 800px;
+    float: left;
+    border: 0px solid;
+    border-radius: 40px;
+}
+#picture {
+    border-radius:25px;
+    border: 0px solid;
+    width: 60%;
+    margin-top:65px;
+}
+ol.social_network {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+    text-decoration: none;
+}
+.icon img {
+    width: 35px;
+    height: auto;
+}
+li {
+    
+    list-style-type: none;
+    margin-left: 20px;
+}
+address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-style: normal;
+}
+.contacts {
+    margin:0 0 0px 30%;
+    color: #6e7b8a;
+    
+}
+.activation{
+    color:white;
+    background-color:#0026ff;
+    height:45px;
+    width:180px;
+    text-align:center;
+    border-radius:20px;
+    padding-top:10px;
+}
+.center{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.ml{ margin-left:28%;}
